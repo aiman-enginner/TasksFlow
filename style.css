@@ -40,3 +40,9 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f
 .card.step-48 { border-left:4px solid rgb(114,117,216); padding-left:.6rem; }
 .card.step-49 { border-left:4px solid rgb(127,146,8); padding-left:.6rem; }
 .card.step-50 { border-left:4px solid rgb(140,175,55); padding-left:.6rem; }
+
+.card.step-51 { border-left:4px solid rgb(153,204,102); padding-left:.6rem; }
+.card.step-52 { border-left:4px solid rgb(166,233,149); padding-left:.6rem; }
+.card.step-53 { border-left:4px solid rgb(179,7,196); padding-left:.6rem; }
+.card.step-54 { border-left:4px solid rgb(192,36,243); padding-left:.6rem; }
+.card.step-55 { border-left:4px solid rgb(205,65,35); padding-left:.6rem; }
