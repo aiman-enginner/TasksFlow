@@ -3,3 +3,64 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f
 .board{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;padding:1rem}
 .col{background:#fff;border-radius:8px;padding:1rem;min-height:300px;box-shadow:0 6px 18px rgba(12,12,12,0.06)}
 .card{background:white;padding:.8rem;border-radius:6px;box-shadow:0 6px 14px rgba(12,12,12,0.06);margin-bottom:.8rem}
+
+.card.step-21 { border-left:4px solid rgb(18,99,222); padding-left:.6rem; }
+.card.step-22 { border-left:4px solid rgb(31,128,14); padding-left:.6rem; }
+.card.step-23 { border-left:4px solid rgb(44,157,61); padding-left:.6rem; }
+.card.step-24 { border-left:4px solid rgb(57,186,108); padding-left:.6rem; }
+.card.step-25 { border-left:4px solid rgb(70,215,155); padding-left:.6rem; }
+
+
+.card.step-26 { border-left:4px solid rgb(83,244,202); padding-left:.6rem; }
+.card.step-27 { border-left:4px solid rgb(96,18,249); padding-left:.6rem; }
+.card.step-28 { border-left:4px solid rgb(109,47,41); padding-left:.6rem; }
+.card.step-29 { border-left:4px solid rgb(122,76,88); padding-left:.6rem; }
+.card.step-30 { border-left:4px solid rgb(135,105,135); padding-left:.6rem; }
+
+.card.step-31 { border-left:4px solid rgb(148,134,182); padding-left:.6rem; }
+.card.step-32 { border-left:4px solid rgb(161,163,229); padding-left:.6rem; }
+.card.step-33 { border-left:4px solid rgb(174,192,21); padding-left:.6rem; }
+.card.step-34 { border-left:4px solid rgb(187,221,68); padding-left:.6rem; }
+.card.step-35 { border-left:4px solid rgb(200,250,115); padding-left:.6rem; }
+
+.card.step-36 { border-left:4px solid rgb(213,24,162); padding-left:.6rem; }
+.card.step-37 { border-left:4px solid rgb(226,53,209); padding-left:.6rem; }
+.card.step-38 { border-left:4px solid rgb(239,82,1); padding-left:.6rem; }
+.card.step-39 { border-left:4px solid rgb(252,111,48); padding-left:.6rem; }
+.card.step-40 { border-left:4px solid rgb(10,140,95); padding-left:.6rem; }
+
+.card.step-41 { border-left:4px solid rgb(23,169,142); padding-left:.6rem; }
+.card.step-42 { border-left:4px solid rgb(36,198,189); padding-left:.6rem; }
+.card.step-43 { border-left:4px solid rgb(49,227,236); padding-left:.6rem; }
+.card.step-44 { border-left:4px solid rgb(62,1,28); padding-left:.6rem; }
+.card.step-45 { border-left:4px solid rgb(75,30,75); padding-left:.6rem; }
+
+.card.step-46 { border-left:4px solid rgb(88,59,122); padding-left:.6rem; }
+.card.step-47 { border-left:4px solid rgb(101,88,169); padding-left:.6rem; }
+.card.step-48 { border-left:4px solid rgb(114,117,216); padding-left:.6rem; }
+.card.step-49 { border-left:4px solid rgb(127,146,8); padding-left:.6rem; }
+.card.step-50 { border-left:4px solid rgb(140,175,55); padding-left:.6rem; }
+
+.card.step-51 { border-left:4px solid rgb(153,204,102); padding-left:.6rem; }
+.card.step-52 { border-left:4px solid rgb(166,233,149); padding-left:.6rem; }
+.card.step-53 { border-left:4px solid rgb(179,7,196); padding-left:.6rem; }
+.card.step-54 { border-left:4px solid rgb(192,36,243); padding-left:.6rem; }
+.card.step-55 { border-left:4px solid rgb(205,65,35); padding-left:.6rem; }
+
+.card.step-56 { border-left:4px solid rgb(218,94,82); padding-left:.6rem; }
+.card.step-57 { border-left:4px solid rgb(231,123,129); padding-left:.6rem; }
+.card.step-58 { border-left:4px solid rgb(244,152,176); padding-left:.6rem; }
+.card.step-59 { border-left:4px solid rgb(2,181,223); padding-left:.6rem; }
+.card.step-60 { border-left:4px solid rgb(15,210,15); padding-left:.6rem; }
+
+.card.step-61 { border-left:4px solid rgb(28,239,62); padding-left:.6rem; }
+.card.step-62 { border-left:4px solid rgb(41,13,109); padding-left:.6rem; }
+.card.step-63 { border-left:4px solid rgb(54,42,156); padding-left:.6rem; }
+.card.step-64 { border-left:4px solid rgb(67,71,203); padding-left:.6rem; }
+.card.step-65 { border-left:4px solid rgb(80,100,250); padding-left:.6rem; }
+
+.card.step-66 { border-left:4px solid rgb(93,129,42); padding-left:.6rem; }
+.card.step-67 { border-left:4px solid rgb(106,158,89); padding-left:.6rem; }
+.card.step-68 { border-left:4px solid rgb(119,187,136); padding-left:.6rem; }
+.card.step-69 { border-left:4px solid rgb(132,216,183); padding-left:.6rem; }
+.card.step-70 { border-left:4px solid rgb(145,245,230); padding-left:.6rem; }
