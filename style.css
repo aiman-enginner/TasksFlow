@@ -2,3 +2,4 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f
 .site-header{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:linear-gradient(90deg,#0ea5e9,#7c3aed);color:white}
 .board{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;padding:1rem}
 .col{background:#fff;border-radius:8px;padding:1rem;min-height:300px;box-shadow:0 6px 18px rgba(12,12,12,0.06)}
+.card{background:white;padding:.8rem;border-radius:6px;box-shadow:0 6px 14px rgba(12,12,12,0.06);margin-bottom:.8rem}
