@@ -1,1 +1,2 @@
 html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f3f4f6}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:1rem;background:linear-gradient(90deg,#0ea5e9,#7c3aed);color:white}
