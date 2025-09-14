@@ -3,3 +3,9 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f
 .board{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;padding:1rem}
 .col{background:#fff;border-radius:8px;padding:1rem;min-height:300px;box-shadow:0 6px 18px rgba(12,12,12,0.06)}
 .card{background:white;padding:.8rem;border-radius:6px;box-shadow:0 6px 14px rgba(12,12,12,0.06);margin-bottom:.8rem}
+
+.card.step-21 { border-left:4px solid rgb(18,99,222); padding-left:.6rem; }
+.card.step-22 { border-left:4px solid rgb(31,128,14); padding-left:.6rem; }
+.card.step-23 { border-left:4px solid rgb(44,157,61); padding-left:.6rem; }
+.card.step-24 { border-left:4px solid rgb(57,186,108); padding-left:.6rem; }
+.card.step-25 { border-left:4px solid rgb(70,215,155); padding-left:.6rem; }
