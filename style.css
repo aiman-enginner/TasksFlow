@@ -173,3 +173,11 @@ body {
   .card:hover {
     transform: scale(1.02);
   }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f9fafb;
+    font-size: 0.8rem;
+    color: #6b7280;
+  }
