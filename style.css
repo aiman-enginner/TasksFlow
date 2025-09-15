@@ -64,3 +64,9 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f
 .card.step-68 { border-left:4px solid rgb(119,187,136); padding-left:.6rem; }
 .card.step-69 { border-left:4px solid rgb(132,216,183); padding-left:.6rem; }
 .card.step-70 { border-left:4px solid rgb(145,245,230); padding-left:.6rem; }
+
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    font-family: 'Poppins', sans-serif;
+  }
+  
