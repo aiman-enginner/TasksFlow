@@ -123,3 +123,9 @@ body {
   .column.in-progress { border-top: 5px solid #fdcb6e; }
   .column.done { border-top: 5px solid #55efc4; }
   
+  .brand h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  }
