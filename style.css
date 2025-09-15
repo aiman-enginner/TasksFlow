@@ -64,3 +64,120 @@ html,body{height:100%;margin:0;font-family:Inter, system-ui, Arial;background:#f
 .card.step-68 { border-left:4px solid rgb(119,187,136); padding-left:.6rem; }
 .card.step-69 { border-left:4px solid rgb(132,216,183); padding-left:.6rem; }
 .card.step-70 { border-left:4px solid rgb(145,245,230); padding-left:.6rem; }
+
+body {
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .task-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .column {
+    border-radius: 12px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  
+  .column.todo { border-top: 5px solid #ff7675; }
+  .column.in-progress { border-top: 5px solid #fdcb6e; }
+  .column.done { border-top: 5px solid #55efc4; }
+ 
+  .add-task-btn {
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .add-task-btn:hover {
+    background: #a29bfe;
+  }
+
+  .task-card.dragging {
+    opacity: 0.6;
+    transform: rotate(3deg);
+  }
+
+  .column {
+    border-radius: 12px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  
+  .column.todo { border-top: 5px solid #ff7675; }
+  .column.in-progress { border-top: 5px solid #fdcb6e; }
+  .column.done { border-top: 5px solid #55efc4; }
+  
+  .brand h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  }
+
+  .brand .tagline {
+    font-size: 0.9rem;
+    color: #e0e7ff;
+    margin-top: 4px;
+  }
+
+  .top-nav #btn-new {
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  .top-nav #btn-new:hover {
+    background: #a29bfe;
+    transform: translateY(-2px);
+  }
+
+  .col h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #374151;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.02);
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f9fafb;
+    font-size: 0.8rem;
+    color: #6b7280;
+  }
