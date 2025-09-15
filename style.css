@@ -129,3 +129,9 @@ body {
     color: #fff;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
   }
+
+  .brand .tagline {
+    font-size: 0.9rem;
+    color: #e0e7ff;
+    margin-top: 4px;
+  }
