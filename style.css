@@ -69,4 +69,17 @@ body {
     background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
     font-family: 'Poppins', sans-serif;
   }
+
+  .task-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-5px);
+  }
   
