@@ -152,3 +152,12 @@ body {
     background: #a29bfe;
     transform: translateY(-2px);
   }
+
+  .col h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #374151;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
