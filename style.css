@@ -135,3 +135,15 @@ body {
     color: #e0e7ff;
     margin-top: 4px;
   }
+
+  .top-nav #btn-new {
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
