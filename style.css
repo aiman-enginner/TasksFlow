@@ -107,4 +107,9 @@ body {
   .add-task-btn:hover {
     background: #a29bfe;
   }
+
+  .task-card.dragging {
+    opacity: 0.6;
+    transform: rotate(3deg);
+  }
   
