@@ -82,4 +82,14 @@ body {
   .task-card:hover {
     transform: translateY(-5px);
   }
+
+  .column {
+    border-radius: 12px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  
+  .column.todo { border-top: 5px solid #ff7675; }
+  .column.in-progress { border-top: 5px solid #fdcb6e; }
+  .column.done { border-top: 5px solid #55efc4; }
   
