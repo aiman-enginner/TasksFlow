@@ -29,3 +29,15 @@ function saveBoard() {
   
   document.addEventListener('DOMContentLoaded', loadBoard);
   
+  // التقاط الزر
+const btnNew = document.getElementById("btn-new");
+
+
+btnNew.addEventListener("click", () => {
+  const task = prompt("أدخل عنوان المهمة:");
+  if (task) {
+    const card = createTaskCard(task); 
+    document.getElementById("col-todo").appendChild(card); 
+    saveBoard(); 
+  }
+});
