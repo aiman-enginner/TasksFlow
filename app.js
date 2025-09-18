@@ -41,3 +41,19 @@ btnNew.addEventListener("click", () => {
     saveBoard(); 
   }
 });
+
+function createTaskCard(text) {
+  const card = document.createElement("article");
+  card.className = "card";
+  card.draggable = true;
+  card.innerHTML = `
+    <h3>${text}</h3>
+    <button class="delete-btn">🗑</button>
+  `;
+  // حدث زر الحذف
+  card.querySelector(".delete-btn").addEventListener("click", () => {
+    card.remove();
+    saveBoard();
+  });
+  return card;
+}
