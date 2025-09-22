@@ -57,3 +57,32 @@ function createTaskCard(text) {
   });
   return card;
 }
+
+// السماح بإفلات البطاقات داخل الأعمدة
+document.querySelectorAll(".cards").forEach(col => {
+  col.addEventListener("dragover", e => {
+    e.preventDefault();
+  });
+
+  col.addEventListener("drop", e => {
+    const dragging = document.querySelector(".dragging");
+    if (dragging) {
+      col.appendChild(dragging);
+      saveBoard();
+    }
+  });
+});
+
+// عند بدء السحب
+document.addEventListener("dragstart", e => {
+  if (e.target.classList.contains("card")) {
+    e.target.classList.add("dragging");
+  }
+});
+
+// عند انتهاء السحب
+document.addEventListener("dragend", e => {
+  if (e.target.classList.contains("card")) {
+    e.target.classList.remove("dragging");
+  }
+});
