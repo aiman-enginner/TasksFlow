@@ -181,3 +181,21 @@ body {
     font-size: 0.8rem;
     color: #6b7280;
   }
+
+  .delete-btn {
+    background: #ef4444; /* أحمر فاتح */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    float: right; /* ليظهر على يمين البطاقة */
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  
+  .delete-btn:hover {
+    background: #b91c1c; /* أحمر أغمق عند المرور */
+    transform: scale(1.1);
+  }
+  

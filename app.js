@@ -48,7 +48,7 @@ function createTaskCard(text) {
   card.draggable = true;
   card.innerHTML = `
     <h3>${text}</h3>
-    <button class="delete-btn">🗑</button>
+    <button class="delete-btn">Delete</button>
   `;
   // حدث زر الحذف
   card.querySelector(".delete-btn").addEventListener("click", () => {
