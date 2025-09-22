@@ -136,22 +136,29 @@ body {
     margin-top: 4px;
   }
 
+  .top-nav {
+    display: flex;
+    justify-content: center; /* يضع الزر في الوسط */
+    margin: 1rem 0;
+  }
+  
   .top-nav #btn-new {
     background: #6c5ce7;
     color: #fff;
     border: none;
-    border-radius: 6px;
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
+    border-radius: 8px;
+    padding: 1rem 2rem;       /* تكبير حجم الزر */
+    font-size: 1.1rem;        /* تكبير الخط */
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease;
   }
-
+  
   .top-nav #btn-new:hover {
     background: #a29bfe;
-    transform: translateY(-2px);
+    transform: scale(1.05);
   }
+  
 
   .col h2 {
     text-align: center;
@@ -181,3 +188,21 @@ body {
     font-size: 0.8rem;
     color: #6b7280;
   }
+
+  .delete-btn {
+    background: #ef4444; /* أحمر فاتح */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    float: right; /* ليظهر على يمين البطاقة */
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+  
+  .delete-btn:hover {
+    background: #b91c1c; /* أحمر أغمق عند المرور */
+    transform: scale(1.1);
+  }
+  
